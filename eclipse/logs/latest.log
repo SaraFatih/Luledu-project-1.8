@@ -1,0 +1,70 @@
+[17:16:24] [Client thread/INFO]: Setting user: Player725
+[17:16:29] [Client thread/INFO]: LWJGL Version: 2.9.2
+[17:16:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:My Mod
+[17:16:36] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:16:36] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[17:16:36] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:16:36] [Thread-8/INFO]: OpenAL initialized.
+[17:16:37] [Sound Library Loader/INFO]: Sound engine started
+[17:16:41] [Client thread/INFO]: Created: 16x16 textures-atlas
+[17:16:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:My Mod
+[17:16:45] [Client thread/INFO]: SoundSystem shutting down...
+[17:16:45] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[17:16:45] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:16:45] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[17:16:45] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:16:45] [Thread-10/INFO]: OpenAL initialized.
+[17:16:46] [Sound Library Loader/INFO]: Sound engine started
+[17:16:48] [Client thread/INFO]: Created: 512x512 textures-atlas
+[17:17:13] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[17:17:13] [Server thread/INFO]: Generating keypair
+[17:17:14] [Server thread/INFO]: Preparing start region for level 0
+[17:17:15] [Server thread/INFO]: Preparing spawn area: 9%
+[17:17:17] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:17:19] [Server thread/INFO]: Player725[local:E:02623364] logged in with entity id 165 at (-32.50289680342705, 90.89439508209753, 296.5715461540946)
+[17:17:19] [Server thread/INFO]: Player725 joined the game
+[17:17:20] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@3a610e20[id=ef82fb01-b598-3553-9c9c-a797489528f6,name=Player725,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:53) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:50) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:148) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [?:1.7.0_75]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [?:1.7.0_75]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_75]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_75]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_75]
+[17:17:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2097ms behind, skipping 41 tick(s)
+[17:18:02] [Server thread/INFO]: Saving and pausing game...
+[17:18:02] [Server thread/INFO]: Saving chunks for level 'Lulea'/Overworld
+[17:18:02] [Server thread/INFO]: Saving chunks for level 'Lulea'/Nether
+[17:18:02] [Server thread/INFO]: Saving chunks for level 'Lulea'/The End
+[17:18:10] [Server thread/INFO]: Saving and pausing game...
+[17:18:10] [Server thread/INFO]: Saving chunks for level 'Lulea'/Overworld
+[17:18:10] [Server thread/INFO]: Saving chunks for level 'Lulea'/Nether
+[17:18:10] [Server thread/INFO]: Saving chunks for level 'Lulea'/The End
+[17:18:12] [Client thread/INFO]: Started on 60845
+[17:18:12] [Client thread/INFO]: [CHAT] Local game hosted on port 60845
+[17:18:18] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[17:31:03] [Server thread/INFO]: Player725 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:31:03] [Server thread/INFO]: Player725 left the game
+[17:31:03] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[17:31:03] [Server thread/INFO]: Stopping server
+[17:31:03] [Server thread/INFO]: Saving players
+[17:31:03] [Server thread/INFO]: Saving worlds
+[17:31:03] [Server thread/INFO]: Saving chunks for level 'Lulea'/Overworld
+[17:31:03] [Server thread/INFO]: Saving chunks for level 'Lulea'/Nether
+[17:31:03] [Server thread/INFO]: Saving chunks for level 'Lulea'/The End
+[17:31:07] [Client thread/INFO]: Stopping!
+[17:31:07] [Client thread/INFO]: SoundSystem shutting down...
+[17:31:07] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

@@ -1,0 +1,44 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 3/2/16 3:17 PM
+Description: Exception in server tick loop
+
+Duplicate Mods:
+	sara_mymod : /Users/home/Downloads/forge-latest/bin
+	sara_mymod : /Users/home/Downloads/forge-latest/eclipse/mods/MinecraftLuledu-1.0.jar
+
+net.minecraftforge.fml.common.DuplicateModsFoundException
+	at net.minecraftforge.fml.common.Loader.identifyDuplicates(Loader.java:397)
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:359)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:483)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:355)
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:120)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:500)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Mac OS X (x86_64) version 10.11.2
+	Java Version: 1.7.0_75, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 974939864 bytes (929 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.10 FML v8.0.99.99 Minecraft Forge 11.14.3.1502 5 mods loaded, 0 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+		mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+		FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8-11.14.3.1502.jar) 
+		Forge{11.14.3.1502} [Minecraft Forge] (forgeSrc-1.8-11.14.3.1502.jar) 
+		sara_mymod{1.0} [My Mod] (bin) 
+		sara_mymod{1.0} [My Mod] (MinecraftLuledu-1.0.jar) 
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

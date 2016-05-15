@@ -1,0 +1,20 @@
+[
+
+{
+  "modid": "sara_mymod",
+  "name": "My Mod",
+  "description": "This is my first Mod ever!.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Sara"],
+  "credits": "The Let's Mod Reboot video, thanks man!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+
+
+
+]
